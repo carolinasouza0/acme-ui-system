@@ -40,8 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# AI Agent & Python
-venv/
-chroma_db/
-__pycache__/
+# Ignorar dependências e ambientes virtuais (Regras Absolutas)
+**/node_modules/
+**/venv/
+**/.next/
+**/chroma_db/
+**/__pycache__/
 .env
